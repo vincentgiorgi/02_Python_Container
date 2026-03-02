@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=X7guekGZM20
+
+1) Create and Clone repos
+2) Dev Container: Add Container configuration file
+python 3 bookworm
+3) Dev Container: Reopen in dev container.
