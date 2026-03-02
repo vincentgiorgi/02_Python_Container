@@ -1,6 +1,25 @@
-https://www.youtube.com/watch?v=X7guekGZM20
+https://www.youtube.com/watch?v=jtBVppyfDbE&t=613s
 
 1) Create and Clone repos
 2) Dev Container: Add Container configuration file
 python 3 bookworm
 3) Dev Container: Reopen in dev container.
+
+4) Containers: Add Dockerfile to workspace.
+5) docker build .
+6) docker image list
+IMAGE                                                                                                 ID             DISK USAGE   CONTENT SIZE   EXTRA
+vsc-02_python_container-b1683a386f6ac992847c2c5b3ca22c6b4070604a29b09eb6faa2a712e78e6942-uid:latest   3362f7d684d2       2.44GB          640MB    U 
+
+7) docker run 02_python_container
+Unable to find image '02_python_container:latest' locally
+docker: Error response from daemon: pull access denied for 02_python_container, repository does not exist or may require 'docker login'
+
+8) F1. Dev Container: Open Folder in Container...
+Works well with Main.py and Plot_csv_serie.ipynb work well.
+
+9) Docker useful commands that work outside container in Powershell:
+docker image list
+docker system prune
+
+
